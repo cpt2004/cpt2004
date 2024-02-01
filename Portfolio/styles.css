@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #fcfcfc;
+}
+
+.header{
+    font-family: bebas;
+    background-color: #fcfcfc;
+    top: 0%;
+    position: sticky;
+    height: 30px;
+    width: auto;
+    nav{
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        padding-top: 5px;
+        margin: 0px;
+        a{
+            color: #02111B;
+        }
+    }
+}
+
+.mainframe{
+    height: auto;
+    background-color: #fcfcfc;
+    color: #02111B;
+    font-family: bebas;
+    font-size: 40px;
+}
